@@ -1,0 +1,33 @@
+﻿
+
+.right{
+    width:50%;
+    position:relative;
+}
+.inner-r{
+    background:#ffd800;
+    margin-left:100px;
+    /*vertical-align:bottom;*/
+}
+.change{
+    background:#00ff90;
+    position:absolute;
+    width:100px;
+    height:100%; /*якщо у батьківському буде float, то height 100% == 0? бо float удаляє висоту*/
+}
+/*нормально якщо для всьог екрану, або якщо вкладеність main > inner,
+     але ВІДОМІ РОЗМІРИ батьківського diva*/
+.row{
+    background:grey;
+    position:relative;
+}
+.inner{
+    background:green;
+    height:300px;
+    width:500px;
+    position:absolute;
+    top:0;
+    left:50%;
+    margin-left:-250px;
+
+}
